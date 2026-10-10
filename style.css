@@ -23,7 +23,7 @@ nav>a:not(.btn):hover::after{width:100%}
 .shade{position:absolute;inset:0;background:linear-gradient(90deg,#151719ee,#15171980 60%,#15171940)}
 .blue{position:absolute;right:3%;bottom:8%;width:min(520px,60%);opacity:.5}
 .blue .draw{fill:none;stroke:#fff;stroke-width:1.5;stroke-dasharray:1600;stroke-dashoffset:1600;animation:dr 4s .5s forwards}
-.draw path{stroke-dasharray:1;stroke-dashoffset:1}.in .draw path,.in.draw path{animation:dr 3s forwards}
+.draw path{stroke-dasharray:1;stroke-dashoffset:1}.in .draw path,.in.draw path{animation:dr 16s forwards}
 @keyframes dr{to{stroke-dashoffset:0}}
 .hero-in{position:relative;padding-top:5rem}
 .eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:.75rem;font-weight:700;margin-bottom:.8rem}.eyebrow.red{color:var(--red)}
